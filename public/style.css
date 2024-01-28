@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(150, 172, 164); 
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f1f1; 
+    border: 1px solid #000000; /* Border color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+ #tosaveexpense {
+
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+
+ }
+
+input:hover,
+input:focus,
+select:hover,
+select:focus,
+#tosaveexpense:hover,
+#tosaveexpense:focus
+
+ {
+    
+    
+    border-width: 0cqmax;
+}
